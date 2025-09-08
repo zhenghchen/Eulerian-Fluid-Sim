@@ -1,0 +1,84 @@
+# Build directories
+build/
+bin/
+obj/
+
+# Executables
+fluid_simulation
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Compiler generated files
+*.d
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Package managers
+conan.lock
+vcpkg_installed/
+
+# Documentation build
+docs/_build/
+*.pdf
+
+# Test outputs
+test_results/
+*.test
+
+# Profiling data
+*.prof
+*.gprof
+
+# Core dumps
+core
+core.*
+
+# Local configuration
+config.local
+settings.local
